@@ -1,0 +1,11 @@
+dn: ou=people,dc=home,dc=lab
+objectClass: organizationalUnit
+ou: people
+
+dn: uid=homer,ou=people,dc=home,dc=lab
+objectClass: inetOrgPerson
+cn: Homer Simpson
+sn: Simpson
+uid: homer
+userPassword: {SSHA}HfO4qSC/1ev6wdGaxCIL4wcQsrjEztEi
+mail: homer@home.lab

@@ -1,0 +1,9 @@
+dn: ou=groups,dc=home,dc=lab
+objectClass: organizationalUnit
+ou: groups
+
+dn: cn=finance-team,ou=groups,dc=home,dc=lab
+objectClass: groupOfNames
+cn: finance-team
+member: uid=homer,ou=people,dc=home,dc=lab
+member: uid=marge,ou=people,dc=home,dc=lab
